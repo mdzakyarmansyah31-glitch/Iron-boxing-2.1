@@ -1,0 +1,11 @@
+{
+	"appId": "com.ironring.boxing",
+	"appName": "Iron Ring Boxing",
+	"webDir": "dist",
+	"server": {
+		"androidScheme": "https"
+	},
+	"android": {
+		"backgroundColor": "#090b10"
+	}
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Iron Ring Boxing",
+  "description": "3D boxing game with UFC-style broadcast camera, analog movement, punch/dodge/guard controls, and full career progression.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

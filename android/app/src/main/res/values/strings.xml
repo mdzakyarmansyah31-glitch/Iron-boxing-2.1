@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Iron Ring Boxing</string>
+    <string name="title_activity_main">Iron Ring Boxing</string>
+    <string name="package_name">com.ironring.boxing</string>
+    <string name="custom_url_scheme">com.ironring.boxing</string>
+</resources>

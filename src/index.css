@@ -1,0 +1,69 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-display: 'Barlow Condensed', system-ui, sans-serif;
+    --font-sans: 'Plus Jakarta Sans', system-ui, sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+  }
+
+  html,
+  body,
+  #root {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #090b10;
+    font-family: var(--font-sans);
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-mono-tabular {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+.touch-none {
+  touch-action: none;
+}
+
+/* Custom subtle scrollbar for career hub panels */
+.career-scroll::-webkit-scrollbar {
+  width: 6px;
+}
+.career-scroll::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.03);
+}
+.career-scroll::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.16);
+  border-radius: 3px;
+}
+.career-scroll::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.28);
+}
+
+@media (orientation: landscape) and (max-height: 500px) {
+  .landscape-compact-hud {
+    transform: scale(0.82);
+    transform-origin: bottom left;
+  }
+  .landscape-compact-hud-right {
+    transform: scale(0.8);
+    transform-origin: bottom right;
+  }
+  .landscape-compact-topbar {
+    transform: scale(0.88);
+    transform-origin: top center;
+  }
+}

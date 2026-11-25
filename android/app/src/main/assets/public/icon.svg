@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#141926" />
+      <stop offset="100%" stop-color="#090b10" />
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fbbf24" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+    <linearGradient id="red" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ef4444" />
+      <stop offset="100%" stop-color="#991b1b" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="96" fill="url(#bg)" />
+  <circle cx="256" cy="256" r="196" fill="none" stroke="url(#gold)" stroke-width="14" />
+  <circle cx="256" cy="256" r="168" fill="none" stroke="#ffffff" stroke-opacity="0.12" stroke-width="4" />
+  <!-- Stylized Boxing Glove Emblem -->
+  <path
+    d="M174 226 C174 166, 224 134, 282 142 C328 148, 352 182, 348 232 C345 272, 326 294, 304 304 L304 352 C304 364, 294 374, 282 374 L214 374 C202 374, 192 364, 192 352 L192 308 C178 296, 174 268, 174 226 Z"
+    fill="url(#red)"
+    stroke="#fecaca"
+    stroke-opacity="0.4"
+    stroke-width="6"
+  />
+  <!-- Thumb tuck -->
+  <path
+    d="M164 238 C144 238, 138 264, 152 284 C164 302, 188 300, 200 286"
+    fill="#dc2626"
+    stroke="#fecaca"
+    stroke-opacity="0.35"
+    stroke-width="5"
+  />
+  <!-- Wrist Cuff -->
+  <rect x="192" y="316" width="112" height="46" rx="10" fill="url(#gold)" />
+  <line x1="214" y1="339" x2="282" y2="339" stroke="#090b10" stroke-width="8" stroke-linecap="round" />
+</svg>
